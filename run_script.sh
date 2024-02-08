@@ -91,15 +91,15 @@ module load anaconda/2022.10
 # for running the Python code below.
 ########################################################
 
+# !%!%!% i commented out this section
 # Remove any existing environments that happen to have
 # the same exact name.
-conda env remove --name example_env -y
-
+#conda env remove --name example_env -y
 # Next create the environment from the yaml file.
-conda env create -f environment.yml
+#conda env create -f environment.yml
 
 # Then activate the environment.
-conda activate example_env
+conda activate LIDAR
 
 ########################################################
 # Run a Python file (within Anaconda environment):
