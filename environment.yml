@@ -1,4 +1,4 @@
-name: example_env
+name: LIDAR
 channels:
   - defaults
 dependencies:
