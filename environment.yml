@@ -1,4 +1,4 @@
-name: LIDAR
+name: LIDAR_PODS
 channels:
   - defaults
 dependencies:
