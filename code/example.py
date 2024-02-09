@@ -1,17 +1,15 @@
 print("Hello World")
 
-#DOWNLOAD multiple tile from multiple collection
-import time
-import geopandas
-import matplotlib.pyplot as plt
-import math
-from shapely.geometry import Point
-import pystac_client
-import stackstac
-import planetary_computer
-import pandas as pd
-
-print("Goodbye World")
+# #DOWNLOAD multiple tile from multiple collection
+# import time
+# import geopandas
+# import matplotlib.pyplot as plt
+# import math
+# from shapely.geometry import Point
+# import pystac_client
+# import stackstac
+# import planetary_computer
+# import pandas as pd
 
 """
 An example Python file which creates random data and exports
@@ -48,3 +46,6 @@ logging.info("Exporting the dataframe to CSV at %s !", args.CSV_FILENAME)
 df.to_csv(args.CSV_FILENAME)
 
 logging.info("Python work finished!")
+
+print("Goodbye World")
+
