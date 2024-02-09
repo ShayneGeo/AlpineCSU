@@ -55,7 +55,7 @@
 
 # Advises Slurm about the minimum nodes necessary for completing
 # the work included in this script.
-#SBATCH --nodes=1
+#SBATCH --nodes=1000
 
 # Advises Slurm about the maximum number of tasks involved
 # with batch processing.
