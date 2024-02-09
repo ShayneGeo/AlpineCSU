@@ -34,7 +34,7 @@
 
 # Provide a specific name used for identifying the job
 # as it proceeds through Slurm.
-#SBATCH --job-name=example-hpc-alpine-python
+#SBATCH --job-name=ALPINECSU_SM
 
 # Tells Slurm to gather standard output from running this
 # file and write it to a specific file.
@@ -42,7 +42,7 @@
 # %j - job ID
 # %a - job array index
 # %A - job array job ID
-#SBATCH --output=example-hpc-alpine-python.out
+#SBATCH --output=ALPINECSU_SM.out
 
 # Sets a limit on the total time this work may take.
 # The format below is in the form of hours:minutes:seconds.
@@ -55,7 +55,7 @@
 
 # Advises Slurm about the minimum nodes necessary for completing
 # the work included in this script.
-#SBATCH --nodes=1000
+#SBATCH --nodes=4
 
 # Advises Slurm about the maximum number of tasks involved
 # with batch processing.
