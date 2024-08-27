@@ -1,4 +1,4 @@
-name: fire1
+name: env_name
 channels:
   - conda-forge
   - defaults
