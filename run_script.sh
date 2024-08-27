@@ -94,12 +94,12 @@ module load anaconda/2022.10
 # !%!%!% i commented out this section
 # Remove any existing environments that happen to have
 # the same exact name.
-conda env remove --name LIDAR_PODS -y
+conda env remove --name env_name -y
 # Next create the environment from the yaml file.
 conda env create -f environment.yml
 
 # Then activate the environment.
-conda activate LIDAR_PODS
+conda activate env_name
 
 ########################################################
 # Run a Python file (within Anaconda environment):
