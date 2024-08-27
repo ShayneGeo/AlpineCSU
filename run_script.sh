@@ -82,7 +82,9 @@ module purge
 # be used by your processes.
 # Note: the numbers found after anaconda/####.## are subject
 # to change depending on the versions installed by administrators.
+#module load anaconda/2022.10
 module load anaconda/2022.10
+
 
 ########################################################
 # Anaconda environment management:
