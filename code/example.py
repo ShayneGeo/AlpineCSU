@@ -2,7 +2,7 @@ print("Hello World")
 
 # #DOWNLOAD multiple tile from multiple collection
 # import time
-import geopandas
+import geopandas as gpd
 # import matplotlib.pyplot as plt
 # import math
 # from shapely.geometry import Point
